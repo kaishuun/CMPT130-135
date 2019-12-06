@@ -42,7 +42,7 @@ deallocate(arr1);
 
 }
 
-//Question 1
+
 int_array make_intarray(int cap){
 	int_array make;
 	make.capacity = cap;
@@ -51,7 +51,6 @@ int_array make_intarray(int cap){
 return make;
 }// make int array
 
-//Question 2
 int_array make_intarray(int cap, int value){
 	int_array make;
 	make.capacity = cap;
@@ -63,13 +62,13 @@ int_array make_intarray(int cap, int value){
 return make;
 }// make  int array with fill
 
-//Question 3
+
 void deallocate(int_array& iarr){
 	delete[] iarr.arr;
 	iarr.arr = nullptr;
 }//deallocate
 
-//question 4
+
 void print(const int_array& iarr){
 	cout << "{";
 	for(int i = 0; i < iarr.size; i++){
@@ -81,19 +80,19 @@ void print(const int_array& iarr){
 
 }//print
 
-//question 5
+
 double pct_used(const int_array& iarr){
 	double size = static_cast<double>(iarr.size);
 	double cap = static_cast<double> (iarr.capacity);
 	return (size/cap);
 }//pct used
 
-//question 6
+
 int get(const int_array& iarr, int i){
 	return *(iarr.arr + i);
 }//get
 
-//question 7
+
 bool set(int_array& iarr, int i, int value){
 	if( i < 0 || i > (iarr.size - 1)){
 		return false;
@@ -103,7 +102,7 @@ bool set(int_array& iarr, int i, int value){
 	}
 }// set
 
-//question 8
+
 void append(int_array& iarr, int value){
 	if (iarr.size == iarr.capacity){
 		int* original = iarr.arr;
@@ -119,7 +118,7 @@ void append(int_array& iarr, int value){
 	iarr.size++;
 }
 
-//question 9
+
 void prepend(int_array& iarr, int value){
 	if (iarr.size == iarr.capacity){
 		int* original = iarr.arr;
@@ -138,7 +137,7 @@ void prepend(int_array& iarr, int value){
 	iarr.size++;
 }//prepend
 
-//question 10
+
  bool operator==(const int_array& iarr1, const int_array& iarr2){
  	if( iarr1.size == iarr2.size){
  		for(int i = 0; i < iarr1.size; i++){
