@@ -1,0 +1,7 @@
+Reads text data about shape contents 
+
+c- circle (contains radius)
+r- rectangle (contains length width)
+t- triangle (contains length of 1 side)
+
+This program reads shape data and computes area and perimeter statistics
