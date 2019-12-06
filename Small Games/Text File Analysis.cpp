@@ -1,4 +1,5 @@
-
+#This program gathers the text statistics from a text file.
+#It computes the number of: lines, characters, words
 #include <iostream>
 #include <fstream>
 #include <string>
