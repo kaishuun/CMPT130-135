@@ -1,0 +1,10 @@
+This project focuses on creating dynamic integer arrays
+
+Currently Working:
+- creating an empty array with a capacity
+- creation of a filled array
+- Array Printing
+- Array Usage statistics
+- Append/Prepend
+- Setting array
+- Equality Check
