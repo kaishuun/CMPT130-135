@@ -1,0 +1,7 @@
+This projects creates a new fraction class that introduces fraction operations in C++
+
+It allows for:
+- Positive and negative fractions
+- Addition/Subtraction/Multiplication/Division
+- Outputs fractions in a 2D display
+- Automatically simplifies fractions
